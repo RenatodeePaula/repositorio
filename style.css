@@ -1,0 +1,225 @@
+     /* RESET */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+    /* GERAL */
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+    --border-profile-img:#00FF00;
+  }
+        
+body {   
+    background: var(--body-bg-color);
+    padding: 40px;
+    font-family: 'Merriweather Sans';
+    color: var(--text-color);
+    
+}
+
+body section { 
+    background: var(--bg-cards);
+   
+
+}
+    /* HEADER */
+header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+}
+
+    /* Perfil */
+.profile { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    min-width: 348px;
+    height: 292px;     
+    border-radius: 20px;       
+}
+
+.profile div img {      
+    margin: 30px;
+    width: auto;
+    height: 128px;   
+    border: 2px solid var(--border-profile-img);
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-bottom:30px;
+    
+}
+
+.profile div h1 {   
+    width: auto;
+    height: 26px;    
+    font-weight: 700;
+    font-size: 23px;           
+}
+
+.profile div p {    
+    margin-top:10px;
+    width: auto;
+    height: 17px;
+    left: 150px; 
+    
+    font-weight: 300;
+    font-size: 13px;   
+}
+
+    /* Meus projetos */
+
+.my-projets {  
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+   
+    width: 100%;
+    height: 86px;   
+    border-radius: 20px;
+    
+}
+.my-projets a  {
+    text-decoration: none;
+    color: var(--text-color);   
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+    /* LINKS DE REDE SOCIAL */    
+.social-links {
+     
+    width: 348px; 
+    height: 348px;     
+    border-radius: 20px;
+    margin-top: 30px;  
+
+}
+
+.social-links div ul {
+    padding: 34px 40px;    
+}
+
+.social-links div ul li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: calc((348px - (34px + 34px)) / 11); 
+    display: flex;
+    align-items: center;
+    transition: transform .4s;
+  
+}
+.social-links div ul a li svg {
+    margin-right: 20px;
+}
+
+.social-links div ul a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.social-links ul a li:hover {
+    transform: scale(1.07);
+}
+
+    /* TECNOLOGIAS */
+.tecnology {    
+    width: 348px;
+    height: 208px;   
+     
+    margin-top: 30px;  
+    border-radius: 30px;
+      
+}
+
+.tecnology h1 {    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    width: 121px;
+    height: 26px;  
+    
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.tecnology div ul {   
+    height: 128px;
+    width: calc(348px - 60px);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-top: 20px;
+    gap: 15px;
+     
+}
+
+.tecnology div ul li {    
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+
+    width: 86px;
+    height: 24px; 
+    
+    border-radius: 20px;     
+
+    list-style: none;     
+    background: #CB92B1;
+    color: #000000;
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase; 
+    
+}
+
+    /*   EXPERIENCIAS */
+.experiences-education {
+    width: 348px;
+    height: 349px;
+    position: absolute;
+    border-radius: 20px; 
+    
+    margin-top: 30px;
+}
+
+.experiences-education h1 {
+    position: absolute;
+    width: 141px;
+    height: 26px;
+    top: 30px ;
+    left:20px;
+    
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.experiences-education div ul{
+    position: absolute;
+    left: 60px;
+    top: 76px;
+    font-weight: 300px;
+    font-size: 12px;
+}
+
+.experiences-education div ul h3{
+    font-weight: 400px;
+}
+
+#educat {
+   margin-top:409px; 
+}
+
+footer {
+    display: flex;
+}
+
+
